@@ -4,6 +4,8 @@
   "description": "Introducción a aplicaciones del lado del servidor.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,6 +15,7 @@
   "author": "Jeisson Rosas",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
   }
 }
